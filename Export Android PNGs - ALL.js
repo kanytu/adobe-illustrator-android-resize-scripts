@@ -16,7 +16,7 @@ function startRoutine(){
 		saveDocumentAsPng(baseW*3, baseH*3, "xxhdpi");
 		saveDocumentAsPng(baseW*2, baseH*2, "xhdpi");
 		saveDocumentAsPng(baseW*1.5, baseH*1.5, "hdpi");
-		saveDocumentAsPng(baseW, baseH, "mhdpi");
+		saveDocumentAsPng(baseW, baseH, "mdpi");
 	}
 	alert("Done!");
 }
