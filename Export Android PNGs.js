@@ -7,9 +7,9 @@ startRoutine();
 function startRoutine(){	
 	var baseW = 32;
 	var baseH = 32;
-	baseW = prompt("mhdpi width (baseline)", baseW);
+	baseW = prompt("mdpi width (baseline)", baseW);
 	if (!baseW || isNaN(baseW)) return;
-	baseH = prompt("mhdpi height (baseline)", baseH);
+	baseH = prompt("mdpi height (baseline)", baseH);
 	if (!baseH || isNaN(baseH)) return;
 //----------------------------------
 	saveDocumentAsPng(baseW*3, baseH*3, "xxhdpi");
