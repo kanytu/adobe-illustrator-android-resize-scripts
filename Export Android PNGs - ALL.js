@@ -23,7 +23,6 @@ function startRoutine(){
 }
 
 
-
 function saveDocumentAsPng(width, height, density){
   var fileName =  d.name.toLowerCase().replace(".ai","").replace(" ","_");
   var myFolder = new Folder(folder.absoluteURI + "/drawable-" + density);
